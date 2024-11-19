@@ -50,6 +50,13 @@ public class Main
 
   public static void multTable()
   {
-    // code solution here
+    for (int i = 1; i <= 100; i += 10)
+    {
+      for (int j = 1; i <= i; j++)
+      {
+        System.out.print(j + " ");
+      }
+      System.out.println();
+    }
   }
 }
